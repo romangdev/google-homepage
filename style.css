@@ -1,0 +1,64 @@
+body {
+    margin: 14px 23px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+}
+
+#nav-left li {
+    padding-right: 15px;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+}
+
+#nav-right li {
+    padding-right: 15px;
+}
+
+#headshot {
+    margin-right: -15px;
+}
+
+#apps-icon img {
+    width: 25px;
+}
+
+#headshot img {
+    width: 33px;
+    border-radius: 100%;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-left {
+    display: flex;
+}
+
+#footer-left li {
+    padding-right: 15px;
+}
+
+#footer-right {
+    display: flex;
+}
+
+#footer-right li {
+    padding-right: 15px;
+}
+
+#settings {
+    margin-right: -15px;
+}
