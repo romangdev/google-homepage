@@ -1,15 +1,18 @@
 body {
-    margin: 14px 23px;
+    /* margin: 14px 23px; */
 }
 
 #nav {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin-top: 14px;
 }
 
 #nav-left {
     display: flex;
     align-items: center;
+    padding-left: 23px;
 }
 
 #nav-left li {
@@ -19,14 +22,11 @@ body {
 #nav-right {
     display: flex;
     align-items: center;
+    padding-right: 8px;
 }
 
 #nav-right li {
     padding-right: 15px;
-}
-
-#headshot {
-    margin-right: -15px;
 }
 
 #apps-icon img {
@@ -38,13 +38,45 @@ body {
     border-radius: 100%;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+#google-logo {
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar {
+    margin-top: 8%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 #footer {
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    border-top: 1px solid #c2c2c2;
+    background-color: #f2f2f2;
 }
 
 #footer-left {
     display: flex;
+    margin-left: 23px;
 }
 
 #footer-left li {
@@ -53,12 +85,9 @@ body {
 
 #footer-right {
     display: flex;
+    margin-right: 23px;
 }
 
 #footer-right li {
     padding-right: 15px;
-}
-
-#settings {
-    margin-right: -15px;
 }
