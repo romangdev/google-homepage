@@ -101,6 +101,10 @@ main {
     padding-right: 20px;
 }
 
+button {
+    outline: none;
+}
+
 #search-buttons-div {
     display: flex;
     justify-content: center;
