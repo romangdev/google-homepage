@@ -1,5 +1,9 @@
+html {
+    height: 100%;
+}
+
 body {
-    /* margin: 14px 23px; */
+    font-family: arial, sans-serif;
 }
 
 #nav {
@@ -7,6 +11,15 @@ body {
     justify-content: space-between;
     width: 100%;
     margin-top: 14px;
+}
+
+li a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 #nav-left {
@@ -42,6 +55,7 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 125px;
+    min-height: 100%;
 }
 
 #google-logo {
@@ -49,29 +63,62 @@ main {
     justify-content: center;
 }
 
-#search-bar {
+#search-bar-div {
     margin-top: 8%;
     margin-bottom: 10%;
     display: flex;
     justify-content: center;
 }
 
-#search-buttons {
-    display: flex;
-    justify-content: space-around;
+#search-bar {
+    width: 475px;
+    border-radius: 60px;
+    border: lightgray 1px solid;
+    height: 40px;
+    outline: none;
+}
 
+#search-bar:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-buttons-div {
+    display: flex;
+    justify-content: center;
+}
+
+.search-buttons {
+    border: 2px white solid;
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(73, 73, 73);
+    border-radius: 5px;
+}
+
+.search-buttons:hover {
+    border: lightgray 2px solid;
+}
+
+#left-button {
+    margin-right: 5px;
+}
+
+#right-button {
+    margin-left: 5px;
 }
 
 #footer {
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding-bottom: 1.5%;
     padding-top: 1.5%;
     border-top: 1px solid #c2c2c2;
     background-color: #f2f2f2;
+    color: rgb(73, 73, 73);
 }
 
 #footer-left {
