@@ -65,23 +65,40 @@ main {
 }
 
 #search-bar-div {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
     margin-top: 8%;
     margin-bottom: 10%;
     display: flex;
     justify-content: center;
-}
-
-#search-bar {
     width: 475px;
     border-radius: 60px;
     border: lightgray 1px solid;
     height: 40px;
-    outline: none;
 }
 
-#search-bar:hover {
+#search-bar-div:hover {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-color: rgba(223,225,229,0);
+}
+
+#search-bar {
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 15px;
+}
+
+#mg-img {
+    width: 23px;
+    padding-left: 18px;
+    padding-top: 3px;
+}
+
+#mic-img {
+    width: 19px;
+    padding-right: 20px;
 }
 
 #search-buttons-div {
