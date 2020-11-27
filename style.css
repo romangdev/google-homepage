@@ -11,6 +11,7 @@ body {
     justify-content: space-between;
     width: 100%;
     margin-top: 14px;
+    font-size: 13px;
 }
 
 li a {
@@ -119,6 +120,7 @@ main {
     border-top: 1px solid #c2c2c2;
     background-color: #f2f2f2;
     color: rgb(73, 73, 73);
+    font-size: 14px;
 }
 
 #footer-left {
