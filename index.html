@@ -3,24 +3,21 @@
     <head>
         <title>Google Homepage</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
         <nav>
-            <div id="nav-left">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Store</a></li>
-                </ul>
-            </div>
-            <div id="nav-right">
-                <ul>
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a href="#"><img src=""></a></li>
-                    <li><a href="#"><img src=""></a></li>
-                </ul>
-            </div>
+            <ul id="nav-left">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+            <ul id="nav-right">
+                <li class="nav-right-text"><a href="#">Gmail</a></li>
+                <li class="nav-right-text"><a href="#">Images</a></li>
+                <li><a href="#"><img src="images/settings-icon.png"></a></li>
+                <li><a href="#"><img src="images/account-icon.png"></a></li>
+            </ul>
         </nav>
         <main>
             <img src="images/Google-Logo.png" id="google-logo">
@@ -31,23 +28,19 @@
             </div>
         </main>
         <footer>
-            <div id="footer-left">
-                <ul>
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">How Search works</a></li>
-                </ul>
-            </div>
+            <ul id="footer-left">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search works</a></li>
+            </ul>
             <div id="footer-center">
                 <p>Carbon neutral since 2007</p>
             </div>
-            <div id="footer-right">
-                <ul>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
-            </div>
+            <ul id="footer-right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
         </footer>
     </body>
 </html>
